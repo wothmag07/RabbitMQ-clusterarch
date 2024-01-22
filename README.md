@@ -14,7 +14,7 @@ Before starting the installation, ensure that you have the following prerequisit
 
 This cross-site cluster architecture diagram depicts RabbitMQ implementation, where each server operates RabbitMQ, a key open-source message broker enabling smooth communication and data exchange among applications. In the primary Site A, Server 1 handles production loads, while Server 2 serves as a standby or secondary broker. At the disaster recovery Site B, Server 1 mirrors Site A's Server 1, ready for failover, and Server 2 manages additional load. RabbitMQ replication, utilizing features like federation or shovel, ensures data synchronization between sites. High availability configurations, clustered setups, mirrored queues, and a robust disaster recovery strategy collectively strengthen the architecture, ensuring resilience and uninterrupted message processing.
 
-![RabbitMQ Diagram](./RabbitMQ-clusterarch/images/rabbitmq.png)
+![RabbitMQ Diagram](./images/rabbitmq.png)
 
 
 ## Steps
